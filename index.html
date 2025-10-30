@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BCMB3888 Group E - Project Portfolio</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background: #0148A4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  h1, h2 {
+    color: 0148A4;
+  }
+  .toc {
+    background: #white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  .toc a {
+    display: block;
+    margin: 20px 0;
+    color: #004466;
+    text-decoration: none;
+  }
+  .toc a:hover {
+    text-decoration: underline;
+  }
+  .section {
+    margin-bottom: 50px;
+  }
+  .video, .slides {
+    margin: 20px 0;
+    text-align: center;
+  }
+  video, iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #0148A4;
+    color: white;
+    margin-top: 50px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>BCMB3888 Group E Project Portfolio</h1>
+</header>
+
+<main>
+
+<!-- Table of Contents -->
+<div class="toc">
+  <h2>Contents</h2>
+  <a href="#slides1">Presentation Slides</a>
+  <a href="#video1">Further Network Analyses</a>
+  <a href="#video2">Additional Slides</a>
+  <a href="#slides2">Additional Slides</a>
+  <a href="#interactive">Interactive GSD7 Phenotype Map</a>	
+</div>
+
+<!-- Section 1: Slides 1 -->
+<div class="section" id="slides1">
+  <h2>Presentation Slides</h2>
+  <div class="slides">
+    <iframe src="sampleppt.pdf"></iframe>
+  </div>
+</div>
+
+<!-- Section 2: Video 1 -->
+<div class="section" id="video1">
+  <h2>Further Network Analyses</h2>
+  <div class="video">
+    <video controls>
+      <source src="networks.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+
+<!-- Section 3: Video 2 -->
+<div class="section" id="video2">
+  <h2>Network Validation</h2>
+  <div class="video">
+    <video controls>
+      <source src="networkvalidation.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+
+
+<!-- Section 4: Presentation 2 -->
+<div class="section" id="slides1">
+  <h2>PowerPoint Slides 1</h2>
+  <div class="slides">
+    <iframe src="slides1.pdf"></iframe>
+  </div>
+</div>
+
+
+<!-- Section 4: Slides 2 -->
+<div class="section" id="slides2">
+  <h2>Additional Slides</h2>
+  <div class="slides">
+    <iframe src="slides2.pdf"></iframe>
+  </div>
+</div>
+
+
+<!-- Section 5: Interactive Viewer -->
+<div class="section" id="interactive">
+  <h2>OMIM: Glycogen Storage Disease VII (232800)</h2>
+  <div class="interactive">
+    <iframe src="https://omim.org/graph/linear/232800"
+            width="90%"
+            height="800"
+            style="border:1px solid #ccc; display:block; margin: 0 auto;">
+    </iframe>
+  <p>If the map does not appear, you can <a href="https://omim.org/graph/linear/232800" target="_blank">open it directly on OMIM</a>.</p>
+  </div>
+</div>
+
+
+</main>
+
+<footer>
+  BCMB3888 Group E &copy; 2025
+</footer>
+
+</body>
+</html>
